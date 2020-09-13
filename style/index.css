@@ -83,31 +83,44 @@ html {
   margin: 0px;
 }
 
-.bigblocks {
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+.bigblock {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items:
-  
+ 
 }
 
 .biggestbox {
-  height: 50rem;
-  width: 130rem;
-  border: solid;
-  margin: 0 0 6rem 0;
-  align-self: center;
-    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
-.smallerboxes {
-  height: 30rem;
-  width: 30rem;
-  border: solid;
+.forrestpic {
+  margin: o o 2px 0;
 }
 
+.smallblocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 
+  
+}
+
+.smallblocks .smallerboxes {
+  height: 38rem;
+  width: 38rem;
+  border: solid;
+  margin: 0 0 6rem 0;
+ }
+
 p {
-  font-size: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
-  margin: 500px 0 0 0;
+  margin: 00px 0 0 0;
 }
