@@ -51,6 +51,8 @@ html {
 
 * {
   box-sizing: border-box;
+  
+ 
 }
 .topsec {
   display: flex;
@@ -82,25 +84,39 @@ html {
   font-size: 2.5rem;
   margin: 0px;
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 a:hover {
   background-color: black;
   color: white;
 }
 
 .bigblock {
+  align-items: center;
   display: flex;
+  justify-content: center;
+  margin: 0 0 4rem 0;
  
 }
 
 .biggestbox {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  height: 50rem;
+  width: 130rem;
+  border: solid;
+  align-items: center;
+  justify-content: center; 
+  background-image: url("https://i.picsum.photos/id/314/1300/500.jpg?hmac=HWPjgiV_81ihEgdLL5pUX3nN1DTOXomeGraQrdJIeMs")
   }
 
 .forrestpic {
   margin: o o 2px 0;
+}
+
+.topbutton {
+  
 }
 
 .smallblocks {
@@ -123,4 +139,25 @@ p {
   font-weight: bold;
   text-align: center;
   margin: 00px 0 0 0;
+}
+
+.footsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  background-color: #E0D9D9;
+  }
+
+.bottombutton {
+  background-color: black;
+  color: white;
 }
