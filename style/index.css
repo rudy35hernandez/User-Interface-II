@@ -161,3 +161,59 @@ p {
   background-color: black;
   color: white;
 }
+
+
+
+
+/* This is page two!!! Below!!! */
+
+.pagetwo {
+  background-color: black;
+}
+
+.aboutpage {
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+  margin: 3rem 0 5rem 0;
+}
+
+.bigtopphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10rem 0;
+}
+
+.aboutphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  width: 130rem;
+  border: solid;
+  border-color: white;
+
+}
+
+.aboutcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.aboutpara {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 30rem;
+  width: 65rem;
+  border: solid;
+  border-color:;
+}
+
+.aboutp{
+  color: white;
+  font-size: 3rem;
+}
