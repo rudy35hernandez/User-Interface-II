@@ -56,10 +56,38 @@ html {
 }
 .topsec {
   display: flex;
-  flex-fow: row;
+  flex-flow: row;
   justify-content: space-between;
   height: 5rem;
   margin: 2rem;
+  
+}
+/* This is the SECTION for smaller device!!!!*/
+@media (max-width:800px) {
+
+  .topsec {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 15rem;
+  }
+  .topsec .name {
+    font-size: 2rem;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    
+  }
+
+  .navselectors {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+
+  }
+
   
 }
 
@@ -69,9 +97,6 @@ html {
   
 }
 
-.navlist {
-  
-  }
 
 
 
