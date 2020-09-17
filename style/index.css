@@ -63,6 +63,7 @@ html {
   
 }
 
+
 .name {
   font-size: 5rem;
   
@@ -93,6 +94,74 @@ a:hover {
   color: white;
 }
 
+/* This is the SECTION for smaller device!!!!*/
+@media (max-width:800px) {
+
+  .topsec {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 80%;
+  }
+  .topsec .name {
+    display: flex;
+    font-size: 3rem; /* Why cant i use percentages or em's here? */
+    justify-content: center;
+    
+  }
+  .navselectors {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-size: 1rem;  /* Font-size did not change? Why? Why did I have to change on .a */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+  a { 
+    font-size: 80%;
+  }
+  
+  a:hover {
+    color: white; /*Why wont the entire block go black? just the letters?*/
+  }
+}
+
+@media (max-width: 500px) {
+    .topsec {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 60%;
+  }
+  
+ .topsec .name {
+    display: flex;
+    font-size: 2rem; /* Why cant i use percentages or em's here? */
+    justify-content: center;
+  }
+  .navselectors {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-size: 1rem;  /* Font-size did not change? Why? Why did I have to change on .a */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  a { 
+    font-size: 60%;
+  }
+  
+  a:hover {
+    color: white; /*Why wont the entire block go black? just the letters?*/
+  }
+}
+/* @media ENDS HERE FOR HEADER */
+
+/* This is the MAIN SECTION, where the main pic is */
+
 .bigblock {
   align-items: center;
   display: flex;
@@ -111,6 +180,26 @@ a:hover {
   background-image: url("https://i.picsum.photos/id/314/1300/500.jpg?hmac=HWPjgiV_81ihEgdLL5pUX3nN1DTOXomeGraQrdJIeMs")
   }
 
+/* Below is the @media coding!!!*/
+
+@media (max-width: 800px) {
+  .bigblock {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .biggestbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: ;  /* Why does it disappear when i add a percentage to the height??? */
+    width: 80%;
+  }
+}
+
+/* This is the MAIN section where the 6 photos are */
+
 .forrestpic {
   margin: o o 2px 0;
 }
@@ -122,12 +211,12 @@ a:hover {
 .smallblocks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 
+  justify-content: space-around;
+  width: 100%;
   
 }
 
-.smallblocks .smallerboxes {
+.smallerboxes {
   height: 38rem;
   width: 38rem;
   border: solid;
@@ -138,8 +227,32 @@ p {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  margin: 00px 0 0 0;
+  margin: 0px 0 0 0;
 }
+
+/* Below here will go the @media coding for the main section!!! */
+@media (max-width: 800px) {
+  .smallblocks {
+    display: flex;
+    justify-content:
+    width: 80%;
+   
+    
+  }
+  
+ .smallerboxes {
+   display: flex;
+   flex-flow: column;
+   width: 40%; /* why does it make it 40% to the page or block and not the parent size? */
+   justify-content:
+   align-items:
+    }
+  
+  p {
+    font-size: 170%;
+  }
+  }
+
 
 .footsec {
   display: flex;
